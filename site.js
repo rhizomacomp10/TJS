@@ -1,3 +1,8 @@
+window.onload = () => {
+    let el = document.querySelector('[alt="*editmysite.com*"]').parentNode.parentNode;
+    el.parentNode.removeChild(el);
+}
+
 document.write( '<html lang=\"en\">\n' );
 document.write( '  <head>\n' );
 document.write( '    <meta charset=\"utf-8\">\n' );
