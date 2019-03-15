@@ -1,18 +1,3 @@
-window.onload = () => {
-    let el = document.querySelector('[alt="*editmysite.com*"]').parentNode.parentNode;
-    el.parentNode.removeChild(el);
-}
-$(document).ready(function() {
-    $('link[href="*editmysite.com*"]').prop("disabled", true);
-});
-
-setTimeout(function() {
-    $('link[href="*editmysite.com/*.css"]').prop("disabled", true);
-}, 2000);
-
-setTimeout(function() {
-    $('link[href="*editmysite.com/*.js"]').prop("disabled", true);
-}, 2000);
 
 document.write( '<html lang=\"en\">\n' );
 document.write( '  <head>\n' );
