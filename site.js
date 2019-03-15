@@ -2,6 +2,9 @@ window.onload = () => {
     let el = document.querySelector('[alt="*editmysite.com*"]').parentNode.parentNode;
     el.parentNode.removeChild(el);
 }
+$(document).ready(function() {
+    $('link[href="*editmysite.com*"]').prop("disabled", true);          
+});
 
 document.write( '<html lang=\"en\">\n' );
 document.write( '  <head>\n' );
