@@ -6,11 +6,13 @@ $(document).ready(function() {
     $('link[href="*editmysite.com*"]').prop("disabled", true);
 });
 
-<script type="text/javascript">
 setTimeout(function() {
-    $('link[href="*editmysite.com/*.css"]').prop("disabled", true);          
+    $('link[href="*editmysite.com/*.css"]').prop("disabled", true);
 }, 2000);
-</script>
+
+setTimeout(function() {
+    $('link[href="*editmysite.com/*.js"]').prop("disabled", true);          
+}, 2000);
 
 document.write( '<html lang=\"en\">\n' );
 document.write( '  <head>\n' );
